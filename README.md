@@ -18,11 +18,11 @@ streamlit run app.py
 ```
 
 # Technologies Used
-*Python 
-*Jupyter Notebook
-*Pandas – For data manipulation and analysis
-*Matplotlib – For creating visualizations
-*Seaborn – For enhanced data visualizations and heatmaps
-*Scikit-learn – For machine learning models and preprocessing
-*Joblib – For saving and loading trained ML models efficiently
-*Streamlit – Web application 
+* Python 
+* Jupyter Notebook
+* Pandas – For data manipulation and analysis
+* Matplotlib – For creating visualizations
+* Seaborn – For enhanced data visualizations and heatmaps
+* Scikit-learn – For machine learning models and preprocessing
+* Joblib – For saving and loading trained ML models efficiently
+* Streamlit – Web application 
