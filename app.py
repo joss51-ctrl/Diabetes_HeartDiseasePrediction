@@ -126,8 +126,8 @@ if st.button("Predict"):
 
     st.markdown("---")
 
-    heart_scaled = scaler_heart.transform(heart_input[['Age', 'BMI']])
-    heart_input_scaled = pd.concat([pd.DataFrame(heart_scaled, columns=['Age', 'BMI']), heart_input.drop(columns=['Age', 'BMI'])], axis=1)
+    heart_scaled = scaler_heart.transform(heart_input[['BMI']])
+    heart_input_scaled = pd.concat([pd.DataFrame(heart_scaled, columns=['BMI']), heart_input.drop(columns=['BMI'])], axis=1)
     y_proba = heart_disease_model.predict_proba(heart_input_scaled)[0][1]
     threshold = 0.6
     prediction = int(y_proba > threshold)
